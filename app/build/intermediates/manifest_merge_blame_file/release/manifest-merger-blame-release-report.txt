@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.contactmanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.10.1] C:\Users\Pc\.gradle\caches\transforms-3\3b1adc729588c0892eaab5e7b849cb0a\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.contactmanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.10.1] C:\Users\Pc\.gradle\caches\transforms-3\3b1adc729588c0892eaab5e7b849cb0a\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.10.1] C:\Users\Pc\.gradle\caches\transforms-3\3b1adc729588c0892eaab5e7b849cb0a\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.contactmanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.10.1] C:\Users\Pc\.gradle\caches\transforms-3\3b1adc729588c0892eaab5e7b849cb0a\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.10.1] C:\Users\Pc\.gradle\caches\transforms-3\3b1adc729588c0892eaab5e7b849cb0a\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:4:5-19:19
+18        android:allowBackup="true"
+18-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.10.1] C:\Users\Pc\.gradle\caches\transforms-3\3b1adc729588c0892eaab5e7b849cb0a\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:6:9-43
+22        android:label="@string/app_name"
+22-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:8:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:7:9-54
+24        android:theme="@style/Theme.ContactManager" >
+24-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:9:9-52
+25        <activity
+25-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:11:9-18:20
+26            android:name="com.example.contactmanager.MainActivity"
+26-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:12:13-41
+27            android:exported="true" >
+27-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:13:13-36
+28            <intent-filter>
+28-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:14:13-17:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:15:17-69
+29-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:15:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:16:17-77
+31-->E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\AndroidManifest.xml:16:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pc\.gradle\caches\transforms-3\57cf71c6c6d78831e8be084b9e930558\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+36            android:name="androidx.startup.InitializationProvider"
+36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pc\.gradle\caches\transforms-3\57cf71c6c6d78831e8be084b9e930558\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+37            android:authorities="com.example.contactmanager.androidx-startup"
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pc\.gradle\caches\transforms-3\57cf71c6c6d78831e8be084b9e930558\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+38            android:exported="false" >
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pc\.gradle\caches\transforms-3\57cf71c6c6d78831e8be084b9e930558\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+39            <meta-data
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pc\.gradle\caches\transforms-3\57cf71c6c6d78831e8be084b9e930558\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pc\.gradle\caches\transforms-3\57cf71c6c6d78831e8be084b9e930558\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+41                android:value="androidx.startup" />
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Pc\.gradle\caches\transforms-3\57cf71c6c6d78831e8be084b9e930558\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+42            <meta-data
+42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Pc\.gradle\caches\transforms-3\5ab4abf8bf8df7750889b50a52cdd4b8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Pc\.gradle\caches\transforms-3\5ab4abf8bf8df7750889b50a52cdd4b8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+44                android:value="androidx.startup" />
+44-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Pc\.gradle\caches\transforms-3\5ab4abf8bf8df7750889b50a52cdd4b8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+45        </provider>
+46    </application>
+47
+48</manifest>

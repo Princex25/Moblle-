@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+id btnAddContact
+id btnCall
+id btnCancel
+id btnSave
+id btnSms
+id etEmail
+id etName
+id etPhone
+id listViewContacts
+id tvContactName
+id tvContactPhone
+id tvFormTitle
+id tvTitle
+layout activity_contact_form
+layout activity_main
+layout contact_item
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+style Theme.ContactManager

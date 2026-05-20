@@ -1,0 +1,5 @@
+E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\java\com\example\contactmanager\Contact.kt
+E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\java\com\example\contactmanager\MainActivity.kt
+E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\java\com\example\contactmanager\DatabaseHelper.kt
+E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\java\com\example\contactmanager\ContactAdapter.kt
+E:\CCN\CCN-4\Mobile\ContactManagerApp\app\src\main\java\com\example\contactmanager\ContactFormActivity.kt
